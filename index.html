@@ -63,7 +63,7 @@
                 <li><a href="#about-section" class="nav-link">Nosotros</a></li>
                 <li><a href="#services-section" class="nav-link">Servicios</a></li>
                 <li><a href="#projects-section" class="nav-link">Proyectos</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                <!-- <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
                 <li><a href="#contact-section" class="nav-link">Contactanos</a></li>
               </ul>
             </nav>
@@ -90,7 +90,7 @@
               <div class="col-lg-8">
                 <h1 class="text-white" data-aos="fade-up" data-aos-delay="">Alcanza tu meta mas rapido</h1>
                 <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">Tenemos el no, nos ganamos tu Si</p>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#services-section" class="btn smoothscroll btn-primary">Nuestros servicios</a></p>
+                <p data-aos="fade-up" data-aos-delay="200"><a href="#services-section" class="btn smoothscroll btn-danger">Nuestros servicios</a></p>
 
               </div>
             </div>
@@ -107,7 +107,7 @@
       <div class="container">
         <div class="row ">
           <div class="col-12 mb-4 position-relative">
-            <h2 class="section-title">Nosotros</h2>
+            <h2 class="section-title text-center mb-5">Nosotros</h2>
           </div>
           <div class="col-lg-4">
             <p>Somos un equipo enfocado a la transformacion digital por medio de herramientas y estrategias a la medida 
@@ -117,7 +117,13 @@
 <!--             <p>Buscamos que tengas presencia en internet y si ya existe mejorarla. </p> -->
           </div>
           <div class="col-lg-4">
-            <img src="images/about_2.jpg" alt="Image" class="img-fluid">
+            <div class="embed-responsive embed-responsive-1by1">
+              <video autoplay loop>
+                <source src="images/SmartCheetah.mp4" type="video/mp4">
+                <source src="images/SmartCheetah.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>  
+            </div>
           </div>
           <div class="col-lg-4">
             <p>Optimiza tus procesos y ten posicionamiento en internet. Necesitas ser 
@@ -133,7 +139,7 @@
     </div>
 
 
-    <div class="site-section" id="services-section">
+    <div class="site-section section-cheetah" id="services-section">
       <div class="container">
         <div class="row ">
           <div class="col-12 mb-5 position-relative">
@@ -321,7 +327,7 @@
     </section>
 
 
-    <section class="site-section bg-primary">
+    <!-- <section class="site-section bg-primary">
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5 position-relative">
@@ -349,10 +355,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     
-    <section class="site-section bg-light" id="blog-section">
+    <!-- <section class="site-section bg-light" id="blog-section">
       <div class="container">
         <div class="row">
           
@@ -397,10 +403,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
-    <section class="site-section" id="contact-section">
+    <section class="site-section section-cheetah" id="contact-section">
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5 position-relative">
@@ -412,28 +418,28 @@
             <form action="#" class="form">
               <div class="row mb-4">
                 <div class="form-group col-6">
-                  <input type="text" class="form-control" placeholder="First name">
+                  <input type="text" class="form-control" placeholder="Nombres">
                 </div>
                 <div class="form-group col-6">
-                  <input type="text" class="form-control" placeholder="Full name">
+                  <input type="text" class="form-control" placeholder="Apellidos">
                 </div>
               </div>
 
               <div class="row mb-4">
                 <div class="form-group col-12">
-                  <input type="email" class="form-control" placeholder="Email address">
+                  <input type="email" class="form-control" placeholder="Correo electronico">
                 </div>
               </div>
 
               <div class="row mb-4">
                 <div class="form-group col-12">
-                  <input type="text" class="form-control" placeholder="Subject of the message">
+                  <input type="text" class="form-control" placeholder="Asunto">
                 </div>
               </div>
 
               <div class="row mb-4">
                 <div class="form-group col-12">
-                  <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
+                  <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Dejanos tu mensaje ..."></textarea>
                 </div>
               </div>
 
@@ -449,16 +455,16 @@
             <h3>London</h3>
             <ul class="list-unstyled mb-5">
               <li class="mb-3">
-                <strong class="d-block mb-1">Address</strong>
+                <strong class="d-block mb-1">Direccion</strong>
                 <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
               </li>
               <li class="mb-3">
-                <strong class="d-block mb-1">Phone</strong>
-                <span>+1 232 3235 324</span>
+                <strong class="d-block mb-1">Telefono</strong>
+                <span>33 18 95 45</span>
               </li>
               <li class="mb-3">
-                <strong class="d-block mb-1">Email</strong>
-                <span>youremail@domain.com</span>
+                <strong class="d-block mb-1">Correo</strong>
+                <span>contacto@smartcheetah.com.mx</span>
               </li>
             </ul>
 
@@ -482,45 +488,42 @@
       </div>
     </section>
 
-    <footer class="site-section bg-light footer">
+    <footer class="site-section  site-footer">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-3">
-            <h3 class="footer-title">Services</h3>
+            <h3 class="footer-title">Servicios</h3>
             <p><span class="d-inline-block d-md-block">203 Fake St. Mountain View,</span> San Francisco, California, USA</p>
           </div>
           <div class="col-md-5 mx-auto">
             <div class="row">
               <div class="col-lg-4">
-                <h3 class="footer-title">Services</h3>
+                <h3 class="footer-title">Servicios</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">Content Marketing</a></li>
-                  <li><a href="#">Brand & Logo</a></li>
-                  <li><a href="#">Social Advertising</a></li>
+                  <li><a href="#">Diseño Web</a></li>
+                  <li><a href="#">Desarrollo web</a></li>
                 </ul>
               </div>
               <div class="col-lg-4">
-                <h3 class="footer-title">Resources</h3>
+                <h3 class="footer-title">Recusros</h3>
                 <ul class="list-unstyled">
                   <li><a href="#">Social Marketing</a></li>
-                  <li><a href="#">Web Design</a></li>
-                  <li><a href="#">Web Development</a></li>
                 </ul>
               </div>
               <div class="col-lg-4">
-                <h3 class="footer-title">Templates</h3>
+                <h3 class="footer-title">Diseños</h3>
                 <ul class="list-unstyled">
-                  <li><a href="#">Illustration</a></li>
-                  <li><a href="#">Video Editing</a></li>
+                  <li><a href="#">Ilustracion</a></li>
+                  <li><a href="#">Edición de video</a></li>
                   <li><a href="#">Copywriting</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-md-3">
-            <h3 class="footer-title">Follow Me</h3>
+            <h3 class="footer-title">Siguenos en</h3>
             <a href="#" class="social-circle m-2"><span class="icon-twitter"></span></a>
-            <a href="#" class="social-circle m-2"><span class="icon-facebook"></span></a>
+            <a href="https://www.facebook.com/smartcheetahoficial/" _blank class="social-circle m-2"><span class="icon-facebook"></span></a>
             <a href="#" class="social-circle m-2"><span class="icon-instagram"></span></a>
             <a href="#" class="social-circle m-2"><span class="icon-dribbble"></span></a>
             <a href="#" class="social-circle m-2"><span class="icon-linkedin"></span></a>
@@ -534,8 +537,8 @@
                 Copyright &copy;
                 <script>
                   document.write(new Date().getFullYear());
-                </script> All rights reserved | This template is made with <i class="icon-heart"
-                  aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                </script> Todos los derechos reservados | This is made with <i class="icon-heart"
+                  aria-hidden="true"></i> by <a href="#" target="_blank">SmartCheetah</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>  
           </div>
