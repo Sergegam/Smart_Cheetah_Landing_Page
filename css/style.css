@@ -659,7 +659,7 @@ body:after {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%); }
   .section-title.text-center:after {
-    background: #C2E54F; }
+    background: black; }
 
 .position-relative {
   position: relative; }
@@ -721,9 +721,9 @@ body:after {
     background: rgba(52, 58, 64, 0.3) !important;
     color: #000; }
   .filters .btn.active {
-    background: #C2E54F !important;
-    color: #fff !important;
-    border-color: #C2E54F !important; }
+    background: #fac80f !important;
+    color: black !important;
+    border-color: #fac80f !important; }
 
 /* Isotope Transitions
 ------------------------------- */
@@ -1010,7 +1010,7 @@ body:after {
 .footer {
   font-size: .9rem; }
   .footer .footer-title {
-    font-size: 1.1rem;
+    font-size: 3.1rem;
     margin-bottom: 30px; }
   .footer ul li {
     margin-bottom: 10px; }
